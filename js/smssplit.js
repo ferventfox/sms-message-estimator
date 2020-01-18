@@ -128,6 +128,8 @@ app.filter('hex_byte', function () {
 
 function SmsSplitCtrl($scope, $http) {
 
+  $scope.input = "frfrefre grg er gre gre g ew g grorh jrpgk wermrhb ektm gwmewgamwmergmrkhmbrwmgrwkmgrpmg prwema grema hgrpwe ghrhrwe gmmf egwmgrwm rmwg hrw ghrwmghrwmewregmrpwemgprwmgwrpmgprwmgrwgtmrwpmogwerpmotpomw4etgmew"
+
   $scope.allEncodings = ["auto", "gsm", "ucs2"];
   $scope.input = $scope.input || "";
   $scope.encoding = $scope.encoding || "auto";
