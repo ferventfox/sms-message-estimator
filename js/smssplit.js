@@ -130,7 +130,7 @@ function SmsSplitCtrl($scope, $http) {
 
   $scope.allEncodings = ["auto", "gsm", "ucs2"];
   $scope.input = $scope.input || "";
-  $scope.encoding = $scope.encoding || "gsm";
+  $scope.encoding = $scope.encoding || "auto";
 
   document.getElementsByTagName("textarea")[0].focus();
 
