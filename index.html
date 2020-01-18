@@ -6,8 +6,6 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
-  <script>
-  </script>
 </head>
 <body>
 
@@ -19,10 +17,10 @@
 
     <div class="input btn-group">
       <textarea ng-trim="false" ng-model="input" placeholder="...message in here..."></textarea>
-      <label class="radio" ng-repeat="encoding in allEncodings">
+      <!-- <label class="radio" ng-repeat="encoding in allEncodings">
         <input type="radio" value="{{ encoding }}" name="encoding" ng-model="$parent.encoding">
         {{ encoding }}
-      </label>
+      </label> -->
     </div>
 
     <div class="char-data">
