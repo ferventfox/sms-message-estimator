@@ -38,8 +38,8 @@
           </div>
           <div class="col-12 col-md-6">
             <div class="char-data">
-              <span ng-if="charData">{{ charData.codepoint }}: {{ charData.name }}</span>
-              <span ng-if="!charData">
+              <span ng-show="charData">{{ charData.codepoint }}: {{ charData.name }}</span>
+              <span ng-hide="charData">
                 <small class="text-muted">
                   [hover over a character to see it's codepoint and name]
                 </small>
