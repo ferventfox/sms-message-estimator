@@ -5,8 +5,10 @@ body {
 }
 
 .form-control:focus {
-  border-color: #f5811e;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(245, 129, 30, 0.3);
+  border-color: #888;
+  box-shadow: none!important;
+  /* border-color: #f5811e;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(245, 129, 30, 0.3); */
 }
 
 .header {
